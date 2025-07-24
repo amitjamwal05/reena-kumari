@@ -443,7 +443,33 @@ img.avatar-img {
                 font-size: 2rem;
             }
         }
-
+        .contact-item a {
+            text-decoration: none;
+            font-style: oblique;
+            font-weight: bold;
+        }
+        .contact-item a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: #ffff;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .contact-item a:hover {
+            color: #007bff;
+        }
+        
+        .contact-item a span {
+            transition: transform 0.3s ease;
+        }
+        
+        .contact-item a:hover span {
+            transform: translateY(-3px);
+        }
+        
         @media (max-width: 480px) {
             .hero-content h1 {
                 font-size: 2rem;
